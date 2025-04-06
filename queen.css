@@ -1,0 +1,22 @@
+.never {
+    font-weight: 200;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: 2px dotted red;
+    background:blueviolet;
+    color: white;
+    box-sizing: border-box;
+}
+
+#tear {
+    display: inline-block;
+    font-weight: 100;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border: 3px solid green;
+    background: chocolate;
+    color: white;
+    box-sizing: border-box;
+}
