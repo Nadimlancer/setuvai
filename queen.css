@@ -1,22 +1,195 @@
-.never {
-    font-weight: 200;
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-    border: 2px dotted red;
-    background:blueviolet;
-    color: white;
-    box-sizing: border-box;
+/* Google fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+html {
+    background-color: #34495e;
+}
+ul {
+    display: inline-block;
+    margin: 20px ;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    gap: 55px;
+
+}
+ul li {
+   
+    list-style: none;
+    /* list-style-type: circle ; */
+    list-style-position: inside;
 }
 
-#tear {
-    display: inline-block;
-    font-weight: 100;
-    width: 300px;
-    height: 300px;
-    padding: 50px;
-    border: 3px solid green;
-    background: chocolate;
+ul li a{
+ 
+    text-decoration: none;
+    padding: 25px 25px;
+    border-radius: 10px;
+    background-color: #f39c12;
+     color: white;
+}
+
+ul li a:hover {
+    background-color: yellow;
+    color: black;
+    transition: all 0.3s;
+
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
     color: white;
-    box-sizing: border-box;
+    
+}
+i.fa-sharp {
+    color: red;
+}
+
+.box2 {
+
+    color: white;
+
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    font-weight: 700;
+
+    font-size: 30px;
+
+    font-style: oblique;
+
+    text-transform: capitalize;
+
+    text-indent: 50px;
+
+    line-height: 40px;
+
+    word-spacing: 5px;
+
+    letter-spacing: 3px;
+
+    text-align: justify;
+
+    text-shadow: 17px 9px 7px rgba(206,89,55,0.93)    ;
+}
+
+.box1 {
+
+    color: white;
+    font-family: "Kablammo", system-ui;
+    font-size: 2em;
+}
+
+.prem  {
+   text-decoration: none;
+    background-color: rgb(73, 73, 245);
+    padding: 25px 25px;
+    border-radius: 10px;
+    color: white;
+}
+
+.prem:hover {
+    background-color: blue;
+    transition: all 0.3s;
+}
+
+.prem1   {
+    text-decoration: none;
+    background-color: rgb(189, 185, 185);
+    padding: 25px 25px;
+    border-radius: 10px;
+    color: black;
+}
+
+.prem1:hover {
+    background-color: grey;
+    transition: all 0.3s;
+}
+
+
+
+.prem2  {
+    text-decoration: none;
+    background-color: rgb(7, 183, 7);
+    padding: 25px 25px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.prem2:hover {
+   
+    background-color: green;
+    transition: all 0.3s;
+}
+
+
+.prem3   {
+    text-decoration: none;
+    background-color: rgb(251, 74, 74);
+    padding: 25px 25px;
+    border-radius: 10px;
+    color: white;
+}
+
+.prem3:hover {
+    background-color: red;
+    transition: all 0.3s;
+}
+
+
+.prem4  {
+    background-color: rgb(255, 214, 7);
+    text-decoration: none;
+    padding: 25px 25px;
+    border-radius: 10px;
+    color: black;
+}
+
+.prem4:hover {
+    background-color: #f39c12;
+    transition: all 0.3s;
+}
+
+
+.prem5  {
+      background-color: skyblue;
+      padding: 25px 25px;
+      border-radius: 10px;
+      color: white;
+      text-decoration: none;
+}
+
+.prem5:hover  {
+    background-color: rgb(63, 63, 254);
+    transition: all 0.3s;
+}
+
+
+.prem6  {
+    background-color:#95a5a6;
+    padding: 25px 25px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.prem6:hover {
+    background-color: aliceblue;
+    transition: all 0.3s;
+}
+
+
+.prem7   {
+    background-color: #34495e;
+    padding: 25px 25px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.prem7:hover {
+    background-color: black;
+    transition: all 0.3s;
 }
