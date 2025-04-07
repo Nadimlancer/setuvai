@@ -1,195 +1,77 @@
-/* Google fonts  */
 
-@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
 
-html {
+
+html , body {
     background-color: #34495e;
 }
-ul {
-    display: inline-block;
-    margin: 20px ;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    gap: 55px;
 
+ul {
+    text-align: center;
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
 }
+
 ul li {
-   
-    list-style: none;
-    /* list-style-type: circle ; */
+    list-style-type: none;
+
     list-style-position: inside;
 }
 
-ul li a{
- 
-    text-decoration: none;
+ul li a {
+    background-color: orange;
     padding: 25px 25px;
     border-radius: 10px;
-    background-color: #f39c12;
-     color: white;
+    color: white;
+    text-decoration: none;
 }
 
 ul li a:hover {
-    background-color: yellow;
-    color: black;
+    background-color: #d35400;
     transition: all 0.3s;
-
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    
-}
-i.fa-sharp {
-    color: red;
+    margin-top: 30px;
+    text-align: center;
+    color: blueviolet;
 }
 
-.box2 {
+.palestain-1 {
 
     color: white;
-
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-    font-weight: 700;
-
-    font-size: 30px;
-
-    font-style: oblique;
-
-    text-transform: capitalize;
-
-    text-indent: 50px;
-
-    line-height: 40px;
-
-    word-spacing: 5px;
-
-    letter-spacing: 3px;
-
     text-align: justify;
+    word-spacing: 8px;
+    letter-spacing: 5px;
+    line-height: 15px;
+    text-transform: capitalize;
+    text-shadow: -9px 4px 10px rgba(237,8,8,0.6);
+} 
 
-    text-shadow: 17px 9px 7px rgba(206,89,55,0.93)    ;
-}
-
-.box1 {
-
-    color: white;
-    font-family: "Kablammo", system-ui;
-    font-size: 2em;
-}
-
-.prem  {
-   text-decoration: none;
-    background-color: rgb(73, 73, 245);
-    padding: 25px 25px;
-    border-radius: 10px;
-    color: white;
-}
-
-.prem:hover {
-    background-color: blue;
-    transition: all 0.3s;
-}
-
-.prem1   {
-    text-decoration: none;
-    background-color: rgb(189, 185, 185);
-    padding: 25px 25px;
-    border-radius: 10px;
-    color: black;
-}
-
-.prem1:hover {
-    background-color: grey;
-    transition: all 0.3s;
+.palestain-2 {
+    text-align: justify;
+    font-family: "Bungee Tint", sans-serif;
 }
 
 
-
-.prem2  {
-    text-decoration: none;
-    background-color: rgb(7, 183, 7);
-    padding: 25px 25px;
-    border-radius: 10px;
-    color: white;
-    
+.parent {
+    background-color: #d35400;
+    width: 300px;
+    height: 300px;
+    padding: 20px 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 15px;
 }
 
-.prem2:hover {
-   
+.child {
+    margin-top: 40px;
     background-color: green;
-    transition: all 0.3s;
-}
-
-
-.prem3   {
-    text-decoration: none;
-    background-color: rgb(251, 74, 74);
-    padding: 25px 25px;
-    border-radius: 10px;
-    color: white;
-}
-
-.prem3:hover {
-    background-color: red;
-    transition: all 0.3s;
-}
-
-
-.prem4  {
-    background-color: rgb(255, 214, 7);
-    text-decoration: none;
-    padding: 25px 25px;
-    border-radius: 10px;
-    color: black;
-}
-
-.prem4:hover {
-    background-color: #f39c12;
-    transition: all 0.3s;
-}
-
-
-.prem5  {
-      background-color: skyblue;
-      padding: 25px 25px;
-      border-radius: 10px;
-      color: white;
-      text-decoration: none;
-}
-
-.prem5:hover  {
-    background-color: rgb(63, 63, 254);
-    transition: all 0.3s;
-}
-
-
-.prem6  {
-    background-color:#95a5a6;
-    padding: 25px 25px;
-    border-radius: 10px;
-    color: black;
-    text-decoration: none;
-}
-
-.prem6:hover {
-    background-color: aliceblue;
-    transition: all 0.3s;
-}
-
-
-.prem7   {
-    background-color: #34495e;
-    padding: 25px 25px;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
-}
-
-.prem7:hover {
-    background-color: black;
-    transition: all 0.3s;
+    width: 300px;
+    height: 300px;
+    padding: 15px 15px;
+    border: 2px dotted black;
+    box-sizing: border-box;
+    border-radius: 15px;
 }
